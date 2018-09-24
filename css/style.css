@@ -1,0 +1,162 @@
+/* Table of Contents
+ _____________________________________
+ -General Contents
+ -Typography
+ -Header & Navigation
+ -Images & Media
+ -Footer
+ -Media Queries
+ _____________________________________*/
+/* General Content
+______________________________________*/
+
+.main{padding-top:3%;}
+.row{padding: 1% 0;}
+.blue{
+	background-color: #E6E6E6;
+}
+.gallery{
+	padding-top: 1%;
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	text-decoration: none;
+	color: rgba(255,0,0,1);
+}
+a:active {
+	text-decoration: none;
+	color: rgba(255,255,0,1);
+}
+
+/* Typography
+______________________________________*/
+
+body{
+	font-family: 'Space Mono', sans-serif;
+	font-size:1.75em;
+	color: #000;
+}
+h2, h1{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+h2.bio{color:#3f7f7c;}
+h1.bio{color:#3f7f7c;}
+p.bio{color: #fff;}
+	
+
+/* Header & Navigation
+______________________________________*/
+
+header.main_nav{
+	padding: 1% 0;
+	display: block;
+	background-color: black;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Concert One', cursive;
+}
+
+.logo{
+	margin: 5% auto;
+	text-align: center;
+}
+.logo a{
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+	border: 3px solid #fff;
+	text-transform: uppercase;
+	padding: 2px 10 px 0 10px;
+	margin 0;
+}
+a.nav:hover{
+	background-color: white;
+	
+}
+a.nav{
+	border: 3px solid #fff;
+	padding: 1%;
+	margin: -.8%;
+	font-family: 'Source Code Pro', monospace;
+}
+a.email:link{
+	color: black;
+}
+a.email:hover{
+	color: rgba(255,0,0,1);
+}
+#navbar{
+	position: sticky; /* Make it stick/fixed */
+    top: -1px; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	z-index: 1;
+}
+
+/* Images & Media
+______________________________________*/
+
+img{max-width: 100%;}
+img.avatar{
+	border-radius:400px;
+	border: 5px solid #fff;
+}
+img:hover{ opacity:0.8;}
+
+/* Footer
+______________________________________*/ 
+
+ul.social{
+	display: block;
+	margin: 5% 0;
+	list-style-type: none;
+	text-align: center;
+}
+ul.social li{
+	font-size: 3em;
+	display: inline;
+	padding: 0 2%;
+}
+ul.social li a{
+	color: #666;
+}
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,273);}
+ul.social li.instagram a:hover{color: rgb(81,127,273);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+ul.social li.flickr a:hover{color: rgb(255,0,132);}
+ul.social li.linkedin a:hover{color: rgb(0,123,182);}
+
+p.copyright{
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+} 
+footer{
+	background-color: black;
+}
+	
+ 
+ /* Media Queries
+______________________________________*/
+
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size:1.25em; color: #3f7f7c;}
+	ul.social li a{font-size: .75em;}
+}
