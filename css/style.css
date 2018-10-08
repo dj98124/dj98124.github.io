@@ -68,8 +68,10 @@ header.main_nav{
 }
 
 .logo{
-	margin: 5% auto;
-	text-align: center;
+	margin-top: -8.25%;
+	margin-bottom: -6.25%;
+	padding-top: 7%;
+	text-align: left;
 }
 .logo a{
 	font-size: 3em;
@@ -96,13 +98,15 @@ a.email:link{
 a.email:hover{
 	color: rgba(255,0,0,1);
 }
+/*
 #navbar{
-	position: sticky; /* Make it stick/fixed */
-    top: -1px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+	position: sticky;
+    top: -1px;
+    width: 100%; 
+    transition: top 0.3s; 
 	z-index: 1;
 }
+*/
 
 /* Images & Media
 ______________________________________*/
