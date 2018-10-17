@@ -13,7 +13,7 @@ ______________________________________*/
 .main{padding-top:3%;}
 .row{padding: 1% 0;}
 .blue{
-	background-color: #E6E6E6;
+	background-color: #f7f7f7;
 }
 .gallery{
 	padding-top: 1%;
@@ -61,7 +61,7 @@ ______________________________________*/
 header.main_nav{
 	padding: 1% 0;
 	display: block;
-	background-color: black;
+	background-image: linear-gradient(140deg, lightgreen, lightblue);
 	text-align: center;
 	font-size: 2em;
 	font-family: 'Concert One', cursive;
@@ -80,17 +80,21 @@ header.main_nav{
 	border: 3px solid #fff;
 	text-transform: uppercase;
 	padding: 2px 10 px 0 10px;
-	margin 0;
+	margin: 0;
 }
 a.nav:hover{
-	background-color: white;
+	box-shadow: 0 4px 0 0 #000;
 	
 }
+a.nav:checked{
+	box-shadow: 0 4px 0 0 #000;
+}
 a.nav{
-	border: 3px solid #fff;
+	
 	padding: 1%;
 	margin: -.8%;
 	font-family: 'Source Code Pro', monospace;
+	
 }
 a.email:link{
 	color: black;
@@ -141,6 +145,7 @@ ul.social li.instagram a:hover{color: rgb(81,127,273);}
 ul.social li.youtube a:hover{color: rgb(187,0,0);}
 ul.social li.flickr a:hover{color: rgb(255,0,132);}
 ul.social li.linkedin a:hover{color: rgb(0,123,182);}
+ul.social li.github a:hover{color: rgb(0,0,0);}
 
 p.copyright{
 	text-align: center;
@@ -148,7 +153,7 @@ p.copyright{
 	font-size: 1em;
 } 
 footer{
-	background-color: black;
+	background-color: #f7f7f7;
 }
 	
  
