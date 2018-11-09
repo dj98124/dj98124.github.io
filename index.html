@@ -39,7 +39,7 @@
 </head>
 	
 <body>
-	<header> 
+<header id="navbar"> 
 <nav class="menu"role="navigation">
   <div id="menuToggle">
    
@@ -62,7 +62,7 @@
 		<a href="index.html">Home</a>
 		<a href="#">About</a> 
 		<a href="#work">Work</a> 
-		<a href="#contact">Contact</a>
+		<a href="#contact">Contact</a>	
 	</nav> -->
 	
 	<div class="navLogo">
@@ -80,7 +80,7 @@
 	<div class="row blue">	
 		<div class="container main">
 			<div class="four columns">
-				<img class="avatar" src="images/dj.png"/>
+				<img class="avatar" src="images/bdj.png"/>
 			</div>
 			<div class="eight columns">
 				<h2 class="bio">About Danny Juan</h2>
@@ -104,6 +104,7 @@
 				<div class="row">	
 					<div class="six columns portfolio">
 						<a class="image-link" href="images/rebrandit.png"><img src="images/rebrandit.png"/></a>
+						<caption>test</caption>
 					</div>
 					<div class="six columns portfolio">
 						<a class="image-link" href="images/golf.png"><img src="images/golf.png"/></a>
@@ -164,22 +165,22 @@
 			</p>
 			
 			<p style="text-align: center;">
-				Phone: +1 239 223 5365 | <a href="mailto:lopezd5555@gmail.com" target="_top" class="email">Email: lopezd5555@gmail.com</a>
+				Phone: +1 239 223 5365 | <a href="mailto:lopezd5555@gmail.com" target="_top" class="email">Email: lopezd5555 at gmail dot com</a>
 			</p>
 			
-			<form>
+			<form id="myForm">
 			  	<div class="row">
 				<div class="six columns">
 				  <label for="exampleRecipientInput">Your Name</label>
-				  <input class="u-full-width" type="text" placeholder="Full Name" id="exampleRecipientInput">
+				  <input class="u-full-width" type="text" name="yourname" placeholder="Full Name" id="exRecipientInput" required>
 				</div>
 				<div class="six columns">
 				  <label for="exampleEmailInput">Your email</label>
-				  <input class="u-full-width" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+				  <input class="u-full-width" type="email" name="youremail" placeholder="example@mail.com" id="exEmailInput" required>
 				</div>				
 			  
 			  <label for="exampleMessage">Message</label>
-			  <textarea class="u-full-width" placeholder="Hi Danny …" id="exampleMessage"></textarea>
+			  <textarea class="u-full-width" name="yourmessage" placeholder="Hi Danny …" id="exMessage" required></textarea>
 			  <input onClick="submitFunction()" class="button-primary" type="submit" value="Submit">
 				</div>
 			</form>
@@ -239,7 +240,10 @@
   }
 }
 	function submitFunction(){
-		alert("Sorry but this fourm in not working at the moment.")
+		alert("Sorry but this form in not working at the moment.");
+		var x = document.getElementById("myForm").elements.namedItem("yourname").value=" ";
+		var x = document.getElementById("myForm").elements.namedItem("youremail").value=" ";
+		var x = document.getElementById("myForm").elements.namedItem("yourmessage").value=" ";
 	}
 </script>	
 	
