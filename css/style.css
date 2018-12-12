@@ -10,6 +10,10 @@
 /* General Content
 ______________________________________*/
 
+#map {
+  height: 400px;
+}
+
 .main{padding-top:3%;}
 .row{padding: 1% 0;}
 .blue{
@@ -50,8 +54,8 @@ h2, h1{
 	font-weight: bold;
 	text-align: center;
 }
-h2.bio{color:#3f7f7c;}
-h1.bio{color:#3f7f7c;}
+h2.bio{color:#357fff;}
+h1.bio{color:#357fff;}
 p.bio{color: #fff;}
 	
 
