@@ -13,7 +13,10 @@ ______________________________________*/
 #map {
   height: 400px;
 }
-
+.skills{
+	vertical-align: text-top; 
+	width: 13%;
+}
 .main{padding-top:3%;}
 .row{padding: 1% 0;}
 .blue{
