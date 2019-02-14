@@ -9,23 +9,33 @@
  _____________________________________*/
 /* General Content
 ______________________________________*/
+body{
+	background-image: url("../images/mydesk.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* .over{
+    background: rgba(0, 0, 0, 0.7 );
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
+} */
 
-#map {
-  height: 400px;
+.red{
+	background-color:rgba(0, 0, 0, .6);
+	height: auto;
+	
 }
-.skills{
-	vertical-align: text-top; 
-	width: 13%;
+
+
+.main{
+	padding-top:3%;
+
 }
-.main{padding-top:3%;}
 .row{padding: 1% 0;}
-.blue{
-	background-color: #f7f7f7;
-}
-.gallery{
-	padding-top: 1%;
-}
-
 a:link {
 	color: black;
 	text-decoration: none;
@@ -33,7 +43,7 @@ a:link {
 a:visited {
 	text-decoration: none;
 	color: black;
-}
+}4
 a:hover {
 	text-decoration: none;
 	color: rgba(0,0,255,1);
@@ -49,54 +59,14 @@ ______________________________________*/
 body{
 	font-family: 'Space Mono', sans-serif;
 	font-size:1.75em;
-	color: #000;
+	color: white;
 }
 h2, h1{
-	font-family: 'Source Code Pro', monospace;
-	font-size: 3em;
-	font-weight: bold;
 	text-align: center;
 }
-h2.bio{color:#357fff;}
-h1.bio{color:#357fff;}
-p.bio{color: #fff;}
-	
-
 /* Header & Navigation
 ______________________________________*/
-header{
-	font-family: 'Source Code Pro', monospace;
-	font-size: 1.65em;
-    display: flex;
-	align-items: center;
-    background-image: linear-gradient(140deg, lightgreen, lightblue);
-    height: 70px;
-    padding-bottom: 0px;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 0px;
-}
-nav{
-	text-align: left;
-	width: 30%;
-	margin-left: auto;
-	margin-right: auto;
-	float: left;
-	font-weight: bold;	
-}
-.menu a{
-	text-decoration: none;
-}
-a:visited{
-	
-}
-.navLogo{
-	text-align: center;
-	width: 40%;
-	padding-top: .5%;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .navSocial{
 	padding-top:2.5%;
 	text-align: right;
@@ -108,30 +78,18 @@ a:visited{
 }
 ul.headerSocial li.linkedin a:hover{color: rgb(0,123,182);}
 ul.headerSocial li.github a:hover{color: rgb(255,255,255);}
-
-#navbar{
-	position: sticky;
-    top: -1px;
-    transition: top 0.3s; 
-	z-index: 1;
-}
-
 /* Images & Media
 ______________________________________*/
 
-img{max-width: 100%;}
-img.avatar{
-	border-radius:400px;
-	border: 5px solid #fff;
+img{
+	width: 100%;
 }
-img:hover{ opacity:0.8;}
 .polaroid{
 	text-align: center;
-	padding: 1px 20px;
+	background-color: white;
 }
 .portfolio{
-	background-color: #f1f1f1;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: white;
 	margin-bottom: 25px;
 }
 
@@ -166,9 +124,13 @@ p.copyright{
 	font-size: 1em;
 } 
 footer{
-	background-color: #f7f7f7;
+	background-color: #000;
+	text-align: center;
 }
-	
+
+footer img{
+	width:150px;
+}
  
  /* Media Queries
 ______________________________________*/
