@@ -14,20 +14,9 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-/* .over{
-    background: rgba(0, 0, 0, 0.7 );
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 0;
-} */
-
 .red{
-	background-color:rgba(0, 0, 0, .6);
-	height: auto;
-	
+	background-color:rgba(0, 0, 0, .5);
+	height: auto;	
 }
 
 
@@ -67,17 +56,6 @@ h2, h1{
 /* Header & Navigation
 ______________________________________*/
 
-.navSocial{
-	padding-top:2.5%;
-	text-align: right;
-	width: 30%;
-}
-.navSocial ul li{
-	display: inline-block;
-	list-style-type: none;
-}
-ul.headerSocial li.linkedin a:hover{color: rgb(0,123,182);}
-ul.headerSocial li.github a:hover{color: rgb(255,255,255);}
 /* Images & Media
 ______________________________________*/
 
