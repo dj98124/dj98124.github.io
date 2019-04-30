@@ -20,23 +20,23 @@ ______________________________________*/
 .main{padding-top:3%;}
 .row{padding: 1% 0;}
 .blue{
-	background-color: #f7f7f7;
+	background-color: #1A1717;
 }
 .gallery{
 	padding-top: 1%;
 }
 
 a:link {
-	color: black;
+	color: #8400ff;
 	text-decoration: none;
 }
 a:visited {
 	text-decoration: none;
-	color: black;
+	color: #8400ff;;
 }
 a:hover {
 	text-decoration: none;
-	color: rgba(0,0,255,1);
+	color: #00cc47;
 }
 a:active {
 	text-decoration: none;
@@ -49,7 +49,8 @@ ______________________________________*/
 body{
 	font-family: 'Space Mono', sans-serif;
 	font-size:1.75em;
-	color: #000;
+	color: #fff;
+	background-color: #222222
 }
 h2, h1{
 	font-family: 'Source Code Pro', monospace;
@@ -57,8 +58,8 @@ h2, h1{
 	font-weight: bold;
 	text-align: center;
 }
-h2.bio{color:#357fff;}
-h1.bio{color:#357fff;}
+h2.bio{color:#00cc47;}
+h1.bio{color:#00cc47;}
 p.bio{color: #fff;}
 	
 
@@ -69,7 +70,7 @@ header{
 	font-size: 1.65em;
     display: flex;
 	align-items: center;
-    background-image: linear-gradient(140deg, lightgreen, lightblue);
+    background-image: linear-gradient(140deg, green, indigo);
     height: 70px;
     padding-bottom: 0px;
     padding-left: 3%;
@@ -87,8 +88,8 @@ nav{
 .menu a{
 	text-decoration: none;
 }
-a:visited{
-	
+.navSocial a:visited{
+	color:#fff
 }
 .navLogo{
 	text-align: center;
@@ -107,7 +108,9 @@ a:visited{
 	list-style-type: none;
 }
 ul.headerSocial li.linkedin a:hover{color: rgb(0,123,182);}
-ul.headerSocial li.github a:hover{color: rgb(255,255,255);}
+ul.headerSocial li.github a:hover{color: rgb(0,204,71);}
+ul.headerSocial li.linkedin a:link{color: #fff;}
+ul.headerSocial li.github a:link{color: #fff;}
 
 #navbar{
 	position: sticky;
@@ -128,9 +131,10 @@ img:hover{ opacity:0.8;}
 .polaroid{
 	text-align: center;
 	padding: 1px 20px;
+	color: black;
 }
 .portfolio{
-	background-color: #f1f1f1;
+	background-color: #fff;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 25px;
 }
@@ -158,7 +162,7 @@ ul.socia l li.instagram a:hover{color: rgb(81,127,273);}
 ul.social li.youtube a:hover{color: rgb(187,0,0);}
 ul.social li.flickr a:hover{color: rgb(255,0,132);}
 ul.social li.linkedin a:hover{color: rgb(0,123,182);}
-ul.social li.github a:hover{color: rgb(0,0,0);}
+ul.social li.github a:hover{color: rgb(0,204,71);}
 
 p.copyright{
 	text-align: center;
@@ -166,7 +170,7 @@ p.copyright{
 	font-size: 1em;
 } 
 footer{
-	background-color: #f7f7f7;
+	background-color:  black;
 }
 	
  
